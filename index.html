@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>MODALS</title>
-	<link rel="stylesheet" href="index.css">
-</head>
-<body>
-	<header>
-		<h1>
-			<a href="#">EVERYTHING FUR!</a>
-		</h1>
-		<nav>
+	<head>
+		<meta charset="UTF-8">
+		<title>MODALS</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="open">Open Modal</div>
+		<div id="modal">
+			<div class="form">
+				<form>
+					<label for="name" required="required">Full Name</label>
+					<input id="name" type="text"/>
+					<label for="email" required="required">Email Address</label>
+					<input id="email" type="text"/>
+					<label for="pass">Password</label>
+					<input id="pass" type="text" required="required"/>
+					<button type="button">Sign Up</button>
+				</form>
+			</div>
+			<div class="invite">
+				<h3>Register for a 50% final purchase!</h3>
+				<div class="close" title="close"></div>
+			</div>
+		</div>
+		<header>
+			<h1>
+				<a href="#">EVERYTHING FUR!</a>
+			</h1>
+			<nav>
 				<a href="#">Search</a>
 				<a href="#">My Account</a>
 				<a href="#">Shopping Bag</a>
-		</nav>
-</header>
-<script src="index.js"></script>	
-</body>
+			</nav>
+		<script src="index.js"></script>
+		</header>
+		<p> blah blah blah blah blah blah blah blah blah blah</p>
+		<div>
+			<image class="image1" src="butterfly_faux.jpg">Fur</image>
+			<image class="image1" src="grey_wolf.jpg">Fur</image>
+		</div>
+	</body>
 </html>
